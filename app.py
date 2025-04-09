@@ -6,6 +6,7 @@ import dash_bootstrap_components as dbc
 
 # Use Bootstrap theme for a professional look
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 app.title = "Tách địa chỉ"
 
 # Custom CSS for additional styling
