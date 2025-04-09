@@ -220,4 +220,4 @@ def download_processed_file(n_clicks):
 
 # Run the app
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server(debug=True)
